@@ -12,18 +12,18 @@ and the Flutter guide for
 -->
 # Manually constructing a Dynamic Link URL
 
-FirebaseのDynamic Linkを生成します。
-FirebaseのDynamic Linkは現状Webに非対応ですが、以下の形式で手動で作成できます。
+FirebaseのDynamic Linkを生成します。  
+FirebaseのDynamic Linkは現状Webに非対応ですが、以下の形式で手動で作成できます。  
 https://firebase.google.com/docs/dynamic-links/create-manually
 
-このパッケージは、上記の形式の通りにDynamic Linkを生成します。
-主に、以下のようなソーシャルメタデータを設定したいときに使います。
+このパッケージは、上記の形式の通りにDynamic Linkを生成します。  
+主に、以下のようなソーシャルメタデータを設定したいときに使います。  
 https://firebase.google.com/docs/dynamic-links/link-previews
 
 ## Features
 
 ![example image](/images/example.png)
-黄色枠の部分を生成します。
+黄色枠の部分を生成します。  
 Twitter等で共有すると、ツイート時に青色枠部分のようなプレビューが表示されます。
 
 ## Usage
